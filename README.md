@@ -2,11 +2,9 @@
 
 An AlphaZero-style self-learning chess engine powered by deep reinforcement learning, MCTS, and a custom neural network called **DeepCheckNet**.
 
-![Chessboard Banner](assets/banner.png) <!-- Optional visual -->
-
 ---
 
-## ♟️ Overview
+## Overview
 
 This project implements a self-improving chess AI using modern reinforcement learning techniques:
 
@@ -19,7 +17,7 @@ Trained completely from scratch using only the game rules, with no human gamepla
 
 ---
 
-## 🚀 Features
+## Features
 
 * `DeepCheckNet`: Residual CNN with separate policy and value heads
 * MCTS enhanced with Dirichlet noise for exploration
@@ -29,7 +27,7 @@ Trained completely from scratch using only the game rules, with no human gamepla
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -48,7 +46,7 @@ Trained completely from scratch using only the game rules, with no human gamepla
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -65,7 +63,7 @@ $ pip install -r requirements.txt
 
 ---
 
-## 🧠 Training from Scratch
+## Training from Scratch
 
 ```bash
 python Auto_train_loop.py
@@ -82,7 +80,7 @@ Trained models are saved as `DeepCheckNet_model.pth`
 
 ---
 
-## 🎮 Play Against the Model
+## Play Against the Model
 
 ### CLI version:
 
@@ -100,7 +98,7 @@ Choose Human vs Model or Model vs Model at runtime.
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 * Early stopping based on validation loss
 * Model only saved if performance improves
@@ -108,7 +106,7 @@ Choose Human vs Model or Model vs Model at runtime.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 * Python 3.8+
 * `torch`, `numpy`, `pygame`, `python-chess`
@@ -121,10 +119,10 @@ pip install -r requirements.txt
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Inspired by:
 
 * DeepMind's AlphaZero paper
 
-Built with by Maaz Hasan
+Built by Maaz Hasan
